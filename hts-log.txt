@@ -1,0 +1,35 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 15 Oct 2022 16:12:06 at https://furtsy.github.io/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://furtsy.github.io/ -O1 "C:\Benim Web Sitem\Test" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:12:33	Error: 	"Service Unavailable" (503) at link https://image.flaticon.com/icons/png/512/52/52191.png (from https://furtsy.github.io/)
+16:12:57	Error: 	"Not Found" (404) at link https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/BTC_Logo.svg/1200px-BTC_Logo.svg.png (from https://furtsy.github.io/)
+16:14:49	Warning: 	file not stored in cache due to bogus state (incomplete type with Not Acceptable (200), size 0): https://github.com/Furtsy/investing.js/hovercards/citation/sidebar_partial?tree_name=main
+16:14:53	Warning: 	file not stored in cache due to bogus state (incomplete type with Not Acceptable (200), size 0): https://github.com/Furtsy/investing.js/used_by_list
+16:15:08	Error: 	"Not Found" (404) at link https://www.npmjs.com/package/crypto-api.js (from https://www.npmjs.com/package/investing.js)
+16:15:08	Error: 	"Not Found" (404) at link https://www.npmjs.com/package/investing-api.js (from https://www.npmjs.com/package/investing.js)
+16:15:08	Error: 	"Not Found" (404) at link https://www.npmjs.com/package/borsa.js (from https://www.npmjs.com/package/investing.js)
+16:15:08	Error: 	"Too Many Requests" (429) at link https://www.npmjs.com/package/minicssextractbug.49bb038c4824de4aa5ad.js (from https://www.npmjs.com/package/investing.js)
+16:15:08	Error: 	"Too Many Requests" (429) at link https://www.npmjs.com/package/node-fetch (from https://www.npmjs.com/package/investing.js?activeTab=dependencies)
+16:15:10	Error: 	"Too Many Requests" (429) at link https://www.npmjs.com/package/investing.js/v/1.0.0 (from https://www.npmjs.com/package/investing.js?activeTab=versions)
+16:15:27	Error: 	"Too Many Requests" (429) at link https://www.npmjs.com/package/blockcrypto (from https://www.npmjs.com/search?q=keywords:crypto.js)
+16:28:32	Warning: 	Found for https://www.npmjs.com/policies/
+16:28:32	Warning: 	File has moved from https://www.npmjs.com/policies/ to /policies
+16:29:34	Error: 	"Not Found" (404) at link https://github.com/Furtsy/investing.js/security/overall-count (from https://github.com/Furtsy/investing.js)
+16:29:37	Error: 	"Not Found" (404) at link https://github.com/Furtsy/investing.js/tree/{{ urlEncodedRefName }} (from https://github.com/Furtsy/investing.js)
+16:29:37	Error: 	"Not Found" (404) at link https://github.com/Furtsy/investing.js/branches (from https://github.com/Furtsy/investing.js)
+16:29:44	Warning: 	Link https://github.com/Furtsy/investing.js/tree/2bc9001f09c68fffdeb86b05291eb782bfe9d8fb not scanned (follow robots meta tag)
+16:31:36	Warning: 	file not stored in cache due to bogus state (incomplete type with Not Acceptable (200), size 0): https://github.com/bytedo/crypto.js/hovercards/citation/sidebar_partial?tree_name=master
+16:31:39	Warning: 	file not stored in cache due to bogus state (incomplete type with Not Acceptable (200), size 0): https://github.com/bytedo/crypto.js/used_by_list
+16:31:42	Error: 	"Not Found" (404) at link https://www.npmjs.com/products/minicssextractbug.49bb038c4824de4aa5ad.js (from https://www.npmjs.com/products/pro)
+16:31:42	Warning: 	Found for https://www.npmjs.com/login/
+16:31:42	Warning: 	File has moved from https://www.npmjs.com/login/ to /login
+16:32:14	Error: 	Exit requested by shell or user
+* * MIRROR ABORTED! * *
+The current temporary cache is required for any update operation and only contains data downloaded during the present aborted session.
+The former cache might contain more complete information; if you do not want to lose that information, you have to restore it and delete the current cache.
+This can easily be done here by erasing the hts-cache/new.* files]
